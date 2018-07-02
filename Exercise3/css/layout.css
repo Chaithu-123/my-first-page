@@ -1,0 +1,74 @@
+body {
+    background-color: #D3D3D3;
+    margin: 0px;
+}
+
+.navy li {
+    display: inline;
+}
+
+.hero_sec {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+article {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translate(0, -50%);
+    padding: 1rem;
+}
+
+.two_col_sec {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+
+.left-half {
+    display: flex;
+    flex-basis: 50%;
+    background-image: url("../img/snooback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.right-half {
+    display: flex;
+    flex-basis: 50%;
+    background-image: url("../img/billiardstab.jpg");
+    color: yellow;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    border-color: black;
+    justify-content: space-between;
+}
+
+.right-half div {
+    border: 1px solid #000;
+    height: 50%;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.third_sec {
+    height: 500px;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #604551;
+    overflow: hidden;
+}
