@@ -1,35 +1,68 @@
 .navy a {
-    display: inline;
     padding: 10px 30px;
-    color: chocolate;
-    font-size: 30px;
-    text-decoration: none;
+    color: #D2691E;
+    font-size: 1.4em;
 }
 
 .spic {
-    display: flex;
-    flex-basis: 20%;
+    width: 95px;
+    height: 75px;
 }
 
 .navy {
-    display: flex;
-    flex-basis: 70%;
+    text-decoration: none;
 }
 
 .right-half p {
     overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
     line-height: 16px;
     max-height: 32px;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
 }
 
 .left-half h2 {
-    font-size: 40px;
+    font-size: 2em;
 }
 
 .third_sec ul {
     text-decoration: none;
+}
+
+.right-half div a {
+    color: #d2691e;
+}
+
+a.book-link1 {
+    position: absolute;
+    right: 0;
+}
+
+a.book-link2 {
+    position: absolute;
+    right: 0;
+}
+
+a.book-link3 {
+    position: absolute;
+    right: 0;
+}
+
+.hero_img {
+    width: 100%;
+    height: auto;
+}
+
+#intro {
+    font-size: 2em;
+}
+
+#book {
+    font-size: 2em;
+}
+
+#junior {
+    font-size: 2em;
+}
+
+#facility {
+    font-size: 2em;
 }
